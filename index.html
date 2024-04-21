@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <!-- cabecalho -->
+    <header id="cabecalho" class="border-bottom">
+        <div class="navbar navbar-expand-lg navbar-expand-md ">
+            <div class="container">
+                <h1>Mundo das IAs</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-carousel"> Carousel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-grid"> Grid</a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- cabecalho -->
+
+    <!-- carrossel -->
+    <section id="section-carousel">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" style="z-index: 0;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://cdn.pixabay.com/photo/2024/04/05/00/32/ai-generated-8676234_1280.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        Imagem de algo 1
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://cdn.pixabay.com/photo/2024/04/05/00/32/ai-generated-8676236_1280.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        Imagem de algo 2
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://cdn.pixabay.com/photo/2024/04/05/00/32/ai-generated-8676235_1280.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        Imagem de algo 3
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- carrossel -->
+
+    <!-- grid -->
+    <section id="section-grid">
+        <div class="container" bis_skin_checked="1">
+            <div class="row mb-3 text-center" bis_skin_checked="1">
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" bis_skin_checked="1">
+                    <div class="card mb-4 rounded-3 shadow-sm" bis_skin_checked="1">
+                        <div class="card-header py-3" bis_skin_checked="1">
+                            <h4 class="my-0 fw-bold">Vectorizer AI</h4>
+                        </div>
+                        <img class="card-img-center img-fluid"
+                            src="https://miro.medium.com/v2/resize:fit:1060/1*RzfTOz7S4-lcQC3-wt9A0w.png" alt="">
+                        <div class="card-body" bis_skin_checked="1">
+                            <p>Vectorizer AI é um site que oferece uma variedade de ferramentas e serviços para
+                                transformar dados não estruturados em representações numéricas, prontas para serem
+                                utilizadas em algoritmos de aprendizado de máquina e análise de dados.</p>
+
+                        </div>
+                        <div class="card-footer"><a href="https://vectorizer.ai/" target="_blank"><button type="button"
+                                    class="w-100 btn btn-lg btn-outline-primary">Ir ao
+                                    Site</button></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" bis_skin_checked="1">
+                    <div class="card mb-4 rounded-3 shadow-sm" bis_skin_checked="1">
+                        <div class="card-header py-3" bis_skin_checked="1">
+                            <h4 class="my-0 fw-bold">Leonardo AI</h4>
+                        </div>
+                        <img class="card-img-center img-fluid"
+                            src="https://futurepedia.b-cdn.net/wp-content/uploads/2023/07/Leonardo-ai.jpg" alt="">
+                        <div class="card-body" bis_skin_checked="1">
+                            <p>Leonardo AI é uma plataforma de inteligência artificial desenvolvida pela OpenAI. Ela
+                                é projetada para auxiliar em uma variedade de tarefas, desde a geração de conteúdo
+                                até a resolução de problemas complexos.</p>
+
+                        </div>
+                        <div class="card-footer"><a href="https://leonardo.ai/" target="_blank"><button type="button"
+                                    class="w-100 btn btn-lg btn-outline-primary">Ir ao
+                                    Site</button></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" bis_skin_checked="1">
+                    <div class="card mb-4 rounded-3 shadow-sm" bis_skin_checked="1">
+                        <div class="card-header py-3" bis_skin_checked="1">
+                            <h4 class="my-0 fw-bold">Chat-Gpt</h4>
+                        </div>
+                        <img class="card-img-center img-fluid"
+                            src="https://myexeed.com/wp-content/uploads/2023/10/11.webp" alt="">
+                        <div class="card-body" bis_skin_checked="1">
+                            <p>ChatGPT é um assistente virtual desenvolvido pela OpenAI, projetado para interagir e
+                                fornecer assistência em uma ampla variedade de tarefas e consultas.</p>
+
+                        </div>
+                        <div class="card-footer"><a href="https://openai.com/chatgpt" target="_blank"><button
+                                    type="button" class="w-100 btn btn-lg btn-outline-primary ">Ir ao
+                                    Site</button></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- grid -->
+    <section id="botao-inicio">
+        <a href="#cabecalho">
+            <div class="container d-flex justify-content-center">
+                <h1>INÍCIO</h1>
+            </div>
+        </a>
+    </section>
+</body>
+<script src="lib/bootstrap.bundle.min.js"></script>
+
+</html>

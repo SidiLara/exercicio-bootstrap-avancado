@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(227, 226, 226);
+}
+#cabecalho{
+    background-color: #fff;
+}
+.navbar .nav-link.active {
+    color: #fff;
+}
+
+.active {
+    background-color: black;
+}
+
+.titulos {
+    border-bottom: 1px solid #ccc;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+}
+
+.card-header img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+
+#botao-inicio {
+    background-color: black;
+}
+
+#botao-inicio a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 100%;
+}
+
+@media screen and (max-width: 666px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav li {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px 0;
+    }
+    #botao-inicio a {
+    }
+}
